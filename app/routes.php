@@ -18,5 +18,7 @@ Route::get('/', function()
 
 Route::get('users', function()
 {
-  return 'Users!';
+    $users = User::all();
+
+    return View::make('users')->with('users', $users);
 });

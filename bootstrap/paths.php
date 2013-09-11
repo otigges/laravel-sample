@@ -52,6 +52,6 @@ return array(
 	|
 	*/
 
-	'storage' => __DIR__.'/../app/storage',
+	'storage' => '/var/laravel/storage',
 
 );
